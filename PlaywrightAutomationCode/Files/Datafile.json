@@ -1,0 +1,21 @@
+{
+    "TestData1":{
+        "Name": "mani",
+        "Email": "manikumar.qa@gmail.com",
+        "Phone" : "8688132879",
+        "Address": "hyd",
+        "Country": "Germany",
+        "Date Picker 1 (mm/dd/yyyy)": "01/02/2028"
+    },
+    "TestDate2":{
+        "Name": "hello",
+        "Email": "mani.qa@gmail.com",
+        "Phone" : "8688132879",
+        "Address": "hyyyrrrrd",
+        "Gender": "Female",
+        "Country": "India",
+        "Date Picker 1 (mm/dd/yyyy)": "01/27/2026"
+    }
+}
+
+

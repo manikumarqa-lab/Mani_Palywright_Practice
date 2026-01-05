@@ -1,0 +1,56 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-verify-horizontal-scroll;to-verify-horizontal-scroll",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "To verify horizontal scroll",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I have launched the chr browser",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\Horizontalscroll.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432412100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will scroll right",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\Horizontalscroll.ts:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5011930400,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Lenovo\\OneDrive\\Desktop\\PlayWright_Cuccumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Method",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-verify-horizontal-scroll",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To verify Horizontal Scroll",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\Horizontalscroll.feature"
+  }
+]
