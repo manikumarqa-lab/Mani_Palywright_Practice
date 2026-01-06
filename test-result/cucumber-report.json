@@ -4,53 +4,57 @@
     "elements": [
       {
         "description": "",
-        "id": "to-verify-horizontal-scroll;to-verify-horizontal-scroll",
+        "id": "api-automation-testing;to-verify-post-data",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "To verify horizontal scroll",
+        "line": 3,
+        "name": "To verify Post Data",
         "steps": [
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "content": "{        \n\"name\":\"1\",\n\"job\":\"day\"        \n} ",
+                "line": 5
+              }
+            ],
             "keyword": "Given ",
-            "line": 6,
-            "name": "I have launched the chr browser",
+            "line": 4,
+            "name": "I post the data via POST call",
             "match": {
-              "location": "PlaywrightAutomationCode\\StepDefinition\\Horizontalscroll.ts:6"
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APIAutomation.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 432412100
+              "duration": 2058448499
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "I will scroll right",
+            "line": 11,
+            "name": "I will verify the status code as 201",
             "match": {
-              "location": "PlaywrightAutomationCode\\StepDefinition\\Horizontalscroll.ts:14"
+              "location": "PlaywrightAutomationCode\\StepDefinition\\APIAutomation.ts:16"
             },
             "result": {
-              "status": "failed",
-              "duration": 5011930400,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Lenovo\\OneDrive\\Desktop\\PlayWright_Cuccumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 2430599
             }
           }
         ],
         "tags": [
           {
             "name": "@Method",
-            "line": 3
+            "line": 2
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "to-verify-horizontal-scroll",
+    "id": "api-automation-testing",
     "line": 1,
     "keyword": "Feature",
-    "name": "To verify Horizontal Scroll",
+    "name": "API Automation Testing",
     "tags": [],
-    "uri": "PlaywrightAutomationCode\\FeatureFiles\\Horizontalscroll.feature"
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\APIAutomation.feature"
   }
 ]
